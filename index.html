@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronómetro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="circle">
+            <div id="stopwatch" class="stopwatch">00:00</div>
+            <div id="buttons" class="buttons">
+                 <div class="stop" onclick="stop()"></div>
+                <div id="play-pause" class="paused" onclick="playPaused()"></div>
+             </div>
+        </div>
+        <div id="seconds-sphere" class="seconds-sphere"></div>
+    </main>
+</body>
+</html>
