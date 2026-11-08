@@ -6,7 +6,7 @@ main{
     border-radius: 50%;
     width: 120px;
     height: 120px;
-    border: 1px solid #ff0000;
+    border: 1px solid pink;
     color: #fff;
     margin: 50px auto;
     display: flex;
